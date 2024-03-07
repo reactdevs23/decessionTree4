@@ -1,0 +1,205 @@
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.subHeading {
+  color: var(--color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1.6px;
+}
+.heading {
+  color: var(--color);
+  font-family: var(--headingFontFamily);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: flex-end;
+  width: 100%;
+  margin: 0 100px;
+  max-width: 2900px;
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.box {
+  width: 230px;
+  height: 93px;
+  padding: 12px;
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  color: var(--color);
+  font-weight: 500;
+  text-align: center;
+}
+.step1 {
+  /* margin-top: 19px; */
+  margin-top: 5px;
+}
+.condition {
+  position: relative;
+}
+.conditionLabel {
+  width: 190px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.longYesRight {
+  position: absolute;
+  top: 41%;
+  right: 0;
+  transform: translate(calc(100% + 2px), 0%);
+}
+.longNoLeft {
+  position: absolute;
+  top: 41%;
+  left: 0;
+  transform: translate(calc(-100% - 2px), 0%);
+}
+.step2Container {
+  display: flex;
+  align-items: center;
+  gap: 543px;
+  transform: translateX(3px);
+  margin-bottom: 5px;
+}
+.step2a {
+  transform: translateX(3px);
+}
+.yesRight {
+  position: absolute;
+  left: 0;
+  transform: translateX(calc(-100% - 2px));
+  top: 50%;
+}
+.noRight {
+  position: absolute;
+  right: 0;
+
+  transform: translateX(calc(100% + 2px));
+  top: 50%;
+}
+.no,
+.yes {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(calc(-50%), calc(100% + 2px));
+  height: 98px;
+  width: 38px;
+}
+.yes {
+  transform: translate(calc(-50% - 3px), calc(100% + 2px));
+}
+.step3Container {
+  display: flex;
+  align-items: center;
+  gap: 650px;
+  margin-top: 42px;
+
+  /* margin-top: 20px; */
+}
+.step3abContainer,
+.step3cdContainer {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+.step3b,
+.step3d {
+  transform: translateX(12px);
+}
+.step3a,
+.step3b,
+.step3c,
+.step3d {
+  position: relative;
+}
+.leftMiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-100%, calc(100% + 3px));
+}
+.rightMiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-8px, calc(100% + 3px));
+}
+.step3c .leftMiddle {
+  transform: translate(calc(-100% + 3px), calc(100% + 3px));
+}
+.step3cd .rightMiddle {
+  transform: translate(-5px, calc(100% + 3px));
+}
+.step4Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 66px;
+  margin-top: 45px;
+}
+.step4c,
+.step4d,
+.step4g,
+.step4h {
+  transform: translateX(10px);
+}
+.allData {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.infoContainer {
+  padding: 28px;
+  border-radius: 10px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 353px;
+}
+.info,
+.title {
+  color: var(--color);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.title {
+  font-weight: 600;
+}
